@@ -1,10 +1,10 @@
 let package = Package(
-    name: "SalesforceMobileSDK",
+    name: "SalesforceMobileSDK-iOS",
     platforms: [
       .iOS(.v13)
     ],
     products: [
-        .library(name: "SalesforceMobileSDK", targets: ["SalesforceMobileSDK"]),
+        .library(name: "SalesforceMobileSDK-iOS", targets: ["SalesforceMobileSDK-iOS"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apadam/SalesforceMobileSDK-iOS.git", .exact("9.1.1")),
