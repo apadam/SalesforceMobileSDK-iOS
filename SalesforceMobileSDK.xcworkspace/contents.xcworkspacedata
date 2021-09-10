@@ -5,252 +5,2564 @@
       location = "group:Package.swift">
    </FileRef>
    <Group
-      location = "group:../SalesforceMobileSDK-iOS-dev/shared"
-      name = "shared">
+      location = "group:Sources"
+      name = "Sources">
       <Group
-         location = "group:test"
-         name = "test">
-         <FileRef
-            location = "group:XCUITest-Bridging-Header.h">
-         </FileRef>
-         <FileRef
-            location = "group:XCUIElement.h">
-         </FileRef>
-         <FileRef
-            location = "group:test_credentials.json.sample">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:classes"
-         name = "classes">
-         <FileRef
-            location = "group:IDPLoginViewController.xib">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:resources"
-         name = "resources">
-         <FileRef
-            location = "group:LaunchScreen.storyboard">
-         </FileRef>
-         <FileRef
-            location = "group:SalesforceSDKResources.bundle">
-         </FileRef>
+         location = "group:MobileSync"
+         name = "MobileSync">
          <Group
-            location = "group:Images.xcassets"
-            name = "Images.xcassets">
-            <Group
-               location = "group:AppIcon.appiconset"
-               name = "AppIcon.appiconset">
-               <FileRef
-                  location = "group:appicon80x80.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon20x20.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon76x76.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon29x29.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon167x167.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon58x58.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon60x60.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon180x180.png">
-               </FileRef>
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon152x152.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon120x120.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon87x87.png">
-               </FileRef>
-               <FileRef
-                  location = "group:appicon40x40.png">
-               </FileRef>
-            </Group>
+            location = "group:Configuration"
+            name = "Configuration">
             <FileRef
-               location = "group:Contents.json">
+               location = "group:MobileSync-Dynamic-iOS-Release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:MobileSync-Test.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:MobileSync-Common.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:MobileSync-Dynamic-iOS-Debug.xcconfig">
             </FileRef>
          </Group>
          <Group
-            location = "group:SalesforceSDKAssets.xcassets"
-            name = "SalesforceSDKAssets.xcassets">
+            location = "group:MobileSyncTestApp"
+            name = "MobileSyncTestApp">
+            <FileRef
+               location = "group:usersyncs.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:MobileSyncTestApp.entitlements">
+            </FileRef>
             <Group
-               location = "group:account-add.imageset"
-               name = "account-add.imageset">
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
                <FileRef
-                  location = "group:add@2x.png">
+                  location = "group:LaunchScreen.storyboard">
                </FileRef>
                <FileRef
-                  location = "group:add@3x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-               <FileRef
-                  location = "group:add@1x.png">
+                  location = "group:Main.storyboard">
                </FileRef>
             </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:globalsyncs.json">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:MobileSync"
+            name = "MobileSync">
+            <FileRef
+               location = "group:MobileSync-Prefix.pch">
+            </FileRef>
             <Group
-               location = "group:globalheader-back-arrow.imageset"
-               name = "globalheader-back-arrow.imageset">
+               location = "group:Classes"
+               name = "Classes">
+               <Group
+                  location = "group:Util"
+                  name = "Util">
+                  <FileRef
+                     location = "group:SFParentChildrenSyncHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncObjectUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCompositeRequestHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncNetworkUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoqlMutator.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncOptions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFChildrenInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncState.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKMobileSyncLogger.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFParentInfo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoqlTokenizer.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncNetworkUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncObjectUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCompositeRequestHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFParentChildrenSyncHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncConstants.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoqlMutator.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoqlTokenizer.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFParentInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKMobileSyncLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncState.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFChildrenInfo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncOptions.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Config"
+                  name = "Config">
+                  <FileRef
+                     location = "group:SFSDKSyncsConfig.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSyncsConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Target"
+                  name = "Target">
+                  <FileRef
+                     location = "group:SFParentChildrenSyncDownTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncDownTarget+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRefreshSyncDownTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMetadataSyncDownTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncUpTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFParentChildrenSyncUpTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFBatchSyncUpTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLayoutSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMruSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSoqlSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSoslSyncDownTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRefreshSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFParentChildrenSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncUpTarget+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncUpTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMetadataSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncTarget+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMruSyncDownTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLayoutSyncDownTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFAdvancedSyncUpTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncDownTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFBatchSyncUpTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFParentChildrenSyncUpTarget.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSoqlSyncDownTarget+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSoslSyncDownTarget.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSoqlSyncDownTarget.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Extensions"
+                  name = "Extensions">
+                  <FileRef
+                     location = "group:MobileSync.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Instrumentation"
+                  name = "Instrumentation">
+                  <FileRef
+                     location = "group:SFMobileSyncSyncManager+Instrumentation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncSyncManager+Instrumentation.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Manager"
+                  name = "Manager">
+                  <FileRef
+                     location = "group:SFMobileSyncSyncManager+SFSyncTask.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFAdvancedSyncUpTask.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncSyncManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMetadataSyncManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MobileSyncSDKManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncDownTask.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCleanSyncGhostsTask.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncTask.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncUpTask.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLayoutSyncManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncSyncManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFAdvancedSyncUpTask.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMetadataSyncManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCleanSyncGhostsTask.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncDownTask.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MobileSyncSDKManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLayoutSyncManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncUpTask.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSyncTask.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Model"
+                  name = "Model">
+                  <FileRef
+                     location = "group:SFObject.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLayout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMetadata.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncPersistableObject.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncPersistableObject+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFObject.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMobileSyncPersistableObject.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMetadata.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLayout.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFObject+Internal.h">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:MobileSync.h">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:MobileSyncTests"
+            name = "MobileSyncTests">
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
                <FileRef
-                  location = "group:globalheader-back-arrow@3x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:globalheader-back-arrow@2x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-               <FileRef
-                  location = "group:globalheader-back-arrow.png">
+                  location = "group:InfoPlist.strings">
                </FileRef>
             </Group>
+            <FileRef
+               location = "group:ParentChildrenSyncTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SyncStateTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SyncUpTargetTests.m">
+            </FileRef>
             <Group
-               location = "group:faceId.imageset"
-               name = "faceId.imageset">
+               location = "group:Targets"
+               name = "Targets">
                <FileRef
-                  location = "group:faceId-dark@2x.png">
+                  location = "group:TestSyncDownTarget.m">
                </FileRef>
                <FileRef
-                  location = "group:faceId-dark@3x.png">
+                  location = "group:TestSyncUpTarget.m">
                </FileRef>
                <FileRef
-                  location = "group:faceId-dark.png">
+                  location = "group:TestSyncDownTarget.h">
                </FileRef>
                <FileRef
-                  location = "group:faceId@3x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-               <FileRef
-                  location = "group:faceId@2x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:faceId.png">
+                  location = "group:TestSyncUpTarget.h">
                </FileRef>
             </Group>
+            <FileRef
+               location = "group:SFLayoutSyncManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:BatchSyncUpTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SyncManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSyncUpdateCallbackQueue.h">
+            </FileRef>
+            <FileRef
+               location = "group:SyncManagerTestCase.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFMetadataSyncManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:MobileSyncTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:SyncUpTargetTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSyncsConfigTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSoqlMutatorTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SyncManagerTestCase.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSyncUpdateCallbackQueue.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:MobileSync.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SalesforceSDKCore"
+         name = "SalesforceSDKCore">
+         <Group
+            location = "group:Configuration"
+            name = "Configuration">
+            <FileRef
+               location = "group:SalesforceSDKCore-Test.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKCore-Common-Dynamic.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKCore-Common.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKCore-Dynamic-iOS-Debug.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKCore-Dynamic-iOS-Release.xcconfig">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SalesforceSDKCore.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:SalesforceSDKCore"
+            name = "SalesforceSDKCore">
+            <FileRef
+               location = "group:SalesforceSDKCore.h">
+            </FileRef>
             <Group
-               location = "group:AppIcon.appiconset"
-               name = "AppIcon.appiconset">
+               location = "group:Classes"
+               name = "Classes">
+               <Group
+                  location = "group:IDP"
+                  name = "IDP">
+                  <FileRef
+                     location = "group:SFSDKIDPAuthHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKUserSelectionTableViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthErrorCommand.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKUITableViewCell.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthRequestCommand.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPInitCommand.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKUserSelectionNavViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountManager+URLHandlers.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthCommand.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPConstants.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKLoginFlowSelectionViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIFont+SFSDKIDP.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthResponseCommand.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKUserSelectionView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthErrorCommand.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKUserSelectionTableViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPAuthHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountManager+URLHandlers.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKUserSelectionNavViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPInitCommand.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthRequestCommand.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKUITableViewCell.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthCommand+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthCommand.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthResponseCommand.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIFont+SFSDKIDP.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKLoginFlowSelectionViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKLoginFlowSelectionView.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:OAuth"
+                  name = "OAuth">
+                  <FileRef
+                     location = "group:SFSDKAuthSession.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthViewHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthRequest.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthKeychainCredentials.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthCoordinator.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthCoordinator+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthOrgAuthConfiguration.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthRootController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthCredentials.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthPreferences.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthSessionRefresher.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthViewHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthInfo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthSession.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthKeychainCredentials.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthCredentials+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthRootController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthCredentials.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthOrgAuthConfiguration.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthSessionRefresher+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthCoordinator.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthPreferences.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFOAuthSessionRefresher.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Identity"
+                  name = "Identity">
+                  <FileRef
+                     location = "group:SFIdentityCoordinator+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFIdentityCoordinator.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFIdentityData.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFIdentityData+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFIdentityData.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFIdentityCoordinator.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Test"
+                  name = "Test">
+                  <FileRef
+                     location = "group:TestSetupUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAsyncProcessListener.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKTestRequestListener.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKTestCredentialsData.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAsyncProcessListener.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKTestRequestListener.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TestSetupUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKTestCredentialsData.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Util"
+                  name = "Util">
+                  <FileRef
+                     location = "group:SFSDKCoreLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoqlBuilder.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoslBuilder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKOAuth2+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKViewUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFApplicationHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURL+SFStringUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFManagedPreferences.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIColor+SFColors.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthConfigUtil.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKOAuth2.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SalesforceSDKCoreDefines.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKMacDetectUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoslReturningBuilder.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKResourceUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDirectoryManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWebUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPreferences.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKViewControllerConfig.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFApplicationHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDirectoryManager+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKViewUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoslBuilder.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoqlBuilder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCoreLogger.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthConfigUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIColor+SFColors.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAuthHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFManagedPreferences.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURL+SFStringUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKMacDetectUtil.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SalesforceSDKCoreDefines.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKOAuth2.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKViewControllerConfig.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPreferences.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWebUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDirectoryManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKOAuthConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKResourceUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSoslReturningBuilder.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Security"
+                  name = "Security">
+                  <FileRef
+                     location = "group:SFKeyStoreKey.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCryptChunks.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDecryptStream.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSecureEncryptionKey.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeyStore+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFGeneratedKeyStore.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPBKDFData.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSecurityLockout.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFEncryptStream.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeyStoreManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeyStore.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Encryptor.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFEncryptionKey.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCryptoUtils.m">
+                  </FileRef>
+                  <Group
+                     location = "group:AppLockView"
+                     name = "AppLockView">
+                     <FileRef
+                        location = "group:SFSDKAppLockViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKBiometricViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKPasscodeVerifyController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKPasscodeCreateController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKPasscodeTextField.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKAppLockViewConfig.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKBiometricViewController+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKAppLockViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKPasscodeTextField.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKPasscodeCreateController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKPasscodeVerifyController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKBiometricViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFAppLockViewControllerTypes.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKAppLockViewConfig.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SFSecureEncryptionKey.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDecryptStream.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCryptChunks.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeyStoreKey.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFEncryptStream.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSecurityLockout.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFGeneratedKeyStore.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPBKDFData.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeyStore.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeyStoreManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeyStoreManager+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCryptoUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSecurityLockout+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFEncryptionKey.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Storage"
+                  name = "Storage">
+                  <FileRef
+                     location = "group:KeyValueEncryptedFileStoreViewController.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KeyValueEncryptedFileStore.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KeyValueEncryptedFileStoreInspector.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Extensions"
+                  name = "Extensions">
+                  <FileRef
+                     location = "group:PushNotificationManager.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RestClient.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UserAccountManager.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:RestAPI"
+                  name = "RestAPI">
+                  <FileRef
+                     location = "group:SFSDKCompositeRequest.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKEncryptedURLCache.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSObjectTree.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKBatchResponse.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Notifications.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestRequest.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Blocks.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+QueryBuilder.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCompositeResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKBatchRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKNullURLCache.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Files.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFNetwork.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKEncryptedURLCache.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCompositeRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+QueryBuilder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Blocks.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Notifications.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKBatchResponse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSObjectTree.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKBatchRequest.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCompositeResponse.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCompositeResponse+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestRequest+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFNetwork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKCompositeRequest+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Files.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKNullURLCache.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKBatchResponse+Internal.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Instrumentation"
+                  name = "Instrumentation">
+                  <FileRef
+                     location = "group:SFRestAPI+Instrumentation.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKInstrumentationHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFInstrumentation.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMethodInterceptor.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountManager+Instrumentation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKInstrumentationHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFRestAPI+Instrumentation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountManager+Instrumentation.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFMethodInterceptor.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFInstrumentation.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:UserAccount"
+                  name = "UserAccount">
+                  <FileRef
+                     location = "group:SFSDKAuthErrorManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDefaultUserAccountPersister.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountIdentity.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccount+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFAuthErrorHandlerList.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFAuthErrorHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccount.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountManager+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountIdentity+Internal.h">
+                  </FileRef>
+                  <Group
+                     location = "group:ViewControllers"
+                     name = "ViewControllers">
+                     <FileRef
+                        location = "group:SFDefaultUserManagementDetailViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFDefaultUserManagementViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFDefaultUserManagementListViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFDefaultUserManagementViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFDefaultUserManagementDetailViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFDefaultUserManagementViewController+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFDefaultUserManagementListViewController.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SFSDKAuthErrorManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountIdentity.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDefaultUserAccountPersister.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccount.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFAuthErrorHandlerList.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFAuthErrorHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserAccountConstants.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Common"
+                  name = "Common">
+                  <FileRef
+                     location = "group:NSString+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSArray+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAppConfig.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFFormatUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserActivityMonitor.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSData+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURL+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFInactivityTimerCenter.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SalesforceSDKManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIScreen+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSData+SFSDKUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+SFBlocks.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeychainItemWrapper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWebViewStateManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSDictionary+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCrypto.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSData+SFSDKUtils_Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFApplication.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAppFeatureMarkers.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSNotificationCenter+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIDevice+SFHardware.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SalesforceSDKManager+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLResponse+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFUserActivityMonitor.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFFormatUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAppConfig.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSArray+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSString+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSData+SFSDKUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIScreen+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SalesforceSDKManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFInactivityTimerCenter.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURL+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SalesforceSDKConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSData+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCrypto.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSDictionary+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWebViewStateManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeychainItemWrapper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+SFBlocks.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSURLResponse+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFKeychainItemWrapper+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSNotificationCenter+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIDevice+SFHardware.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFCrypto+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAppFeatureMarkers.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFApplication.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:URLHandlers"
+                  name = "URLHandlers">
+                  <FileRef
+                     location = "group:SFSDKStartURLHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPInitiatedAuthRequestHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKURLHandlerManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPRequestHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAdvancedAuthURLHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPErrorHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPResponseHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPInitiatedAuthRequestHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKStartURLHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPRequestHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKURLHandlerManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPErrorHandler.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKURLHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAdvancedAuthURLHandler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKIDPResponseHandler.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Views"
+                  name = "Views">
+                  <FileRef
+                     location = "group:SFSDKAlertView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAlertMessageBuilder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWindowContainer.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKNavigationController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKDevInfoViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAlertMessage.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKRootController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWindowManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKNavigationController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWindowContainer.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAlertMessageBuilder.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAlertView.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAlertMessage.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKDevInfoViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKRootController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWindowManager+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKViewController.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKWindowManager.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:PushNotification"
+                  name = "PushNotification">
+                  <FileRef
+                     location = "group:SFSDKPushNotificationError.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPushNotificationManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKPushNotificationDecryption.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKPushNotificationDecryption+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKPushNotificationError.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKPushNotificationEncryptionConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPushNotificationManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKPushNotificationDecryption.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKPushNotificationFieldsConstants.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Protocols"
+                  name = "Protocols">
+                  <FileRef
+                     location = "group:SFSDKAppDelegate.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Login"
+                  name = "Login">
+                  <FileRef
+                     location = "group:SFLoginViewController.h">
+                  </FileRef>
+                  <Group
+                     location = "group:LoginHost"
+                     name = "LoginHost">
+                     <FileRef
+                        location = "group:SFSDKLoginHostListViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKLoginHostStorage.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKLoginHostDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKNewLoginHostViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKLoginHost.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKTextFieldTableViewCell.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKLoginHostStorage.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKLoginHostListViewController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKTextFieldTableViewCell.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKLoginHost.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SFSDKNewLoginHostViewController.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SFSDKLoginViewControllerConfig.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLoginViewController.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKLoginViewControllerConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Analytics"
+                  name = "Analytics">
+                  <FileRef
+                     location = "group:SFSDKSalesforceAnalyticsManager+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKEventBuilderHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSalesforceAnalyticsManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAILTNPublisher.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAnalyticsPublisher.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKEventBuilderHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSalesforceAnalyticsManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAILTNPublisher.m">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKCore-Prefix.pch">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceSDKCoreTests"
+            name = "SalesforceSDKCoreTests">
+            <FileRef
+               location = "group:SFSDKAppFeatureMarkersTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKIdentityTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKURLHandlerManagerTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFCryptoStreamTestUtils.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+SFAdditionsTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSalesforceAnalyticsManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFUserAccountManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFEncryptionKeyTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKLogoutBlocker.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFUserAccountPhotoTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceOAuthUnitTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:RestClientPublisherTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NSURL+SFStringUtilsTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKPushNotificationDataProvider.h">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceRestAPITests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFTestSDKManagerFlow.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKAuthResponseCommandTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFNativeRestRequestListener.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFUserAccountPersisterEphemeral.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKIDPAuthInitCommandTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFUserAccountManagerPersisterTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFManagedPreferencesTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFPushNotificationManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceTestExtenions.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceOAuthUnitTestsCoordinatorDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKCoreTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKAuthRequestCommandTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:RestClientTest.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SFEncryptDecryptStreamJSONTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKCryptoUtilsTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKAuthConfigUtilTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSecurityLockoutTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFUserAccountManagerNotificationsTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFKeyStoreManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFOAuthTestFlowCoordinatorDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:SDSDKAlertMessageTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFEncryptDecryptStreamTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKPushNotificationDataProvider.m">
+            </FileRef>
+            <FileRef
+               location = "group:NSURL+SFStringUtilsTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SDKCommonNSDataTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKWindowManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKURLCacheTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceOAuthUnitTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFPreferencesTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKLogoutBlocker.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKAuthUtilTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKIdentityTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFCryptoStreamTestUtils.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFUserAccountPersisterEphemeral.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFNativeRestRequestListener.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFOAuthSessionRefresherTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKErrorManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSecureEncryptionKeyTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFUserIdUpgradeTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFTestSDKManagerFlow.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceRestAPITests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKLoginHostTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKAuthErrorCommandTest.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSecurityTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceOAuthUnitTestsCoordinatorDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceSDKCoreTests-Bridging-Header.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKKeyValueEncryptedFileStoreTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKEncryptedPushNotificationTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFPasscodeTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:UIColor+SFColorsTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFOAuthTestFlowCoordinatorDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:EncryptionTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SFNetworkTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFKeyStoreTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSecurityLockoutTests.m">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceSDKCoreTestApp"
+            name = "SalesforceSDKCoreTestApp">
+            <FileRef
+               location = "group:SalesforceSDKCoreTestApp-Prefix.pch">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
                <FileRef
-                  location = "group:Contents.json">
+                  location = "group:InfoPlist.strings">
                </FileRef>
             </Group>
+            <FileRef
+               location = "group:SalesforceSDKCoreTestApp.entitlements">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
             <Group
-               location = "group:salesforce-logo.imageset"
-               name = "salesforce-logo.imageset">
+               location = "group:Base.lproj"
+               name = "Base.lproj">
                <FileRef
-                  location = "group:salesforce-logo1x.png">
+                  location = "group:Main_iPhone.storyboard">
                </FileRef>
                <FileRef
-                  location = "group:salesforce-logo3x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:salesforce-logo2x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:Contents.json">
+                  location = "group:Main_iPad.storyboard">
                </FileRef>
             </Group>
+            <FileRef
+               location = "group:SalesforceSDKCoreTestApp-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
             <Group
-               location = "group:login-window-gear.imageset"
-               name = "login-window-gear.imageset">
+               location = "group:Images.xcassets"
+               name = "Images.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:LaunchImage.launchimage"
+                  name = "LaunchImage.launchimage">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:SmartStore"
+         name = "SmartStore">
+         <FileRef
+            location = "group:SmartStore.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Configuration"
+            name = "Configuration">
+            <FileRef
+               location = "group:SmartStore-Dynamic-iOS-Release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SmartStore-Test.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SmartStore-Common.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SmartStore-Dynamic-iOS-Debug.xcconfig">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SmartStoreTestApp"
+            name = "SmartStoreTestApp">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
                <FileRef
-                  location = "group:login-window-gear@2x.png">
+                  location = "group:LaunchScreen.storyboard">
                </FileRef>
                <FileRef
-                  location = "group:login-window-gear@3x.png">
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:userstore.json">
+            </FileRef>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:globalstore.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:SmartStoreTestApp.entitlements">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SmartStore"
+            name = "SmartStore">
+            <FileRef
+               location = "group:SmartStore.h">
+            </FileRef>
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <FileRef
+                  location = "group:SFSDKStoreConfig.h">
                </FileRef>
                <FileRef
-                  location = "group:login-window-gear.png">
+                  location = "group:SFSmartStore+Internal.h">
                </FileRef>
+               <FileRef
+                  location = "group:NSData+SFAdditions.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartSqlCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartSqlHelper.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFAlterSoupLongOperation.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SmartStoreSDKManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFQuerySpec.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreDatabaseManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStore.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreUtils.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSDKSmartStoreLogger.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSoupSpec.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreUpgrade.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreInspectorViewController.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSoupIndex.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFStoreCursor.h">
+               </FileRef>
+               <Group
+                  location = "group:Extensions"
+                  name = "Extensions">
+                  <FileRef
+                     location = "group:SmartStore.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Instrumentation"
+                  name = "Instrumentation">
+                  <FileRef
+                     location = "group:SFSmartStore+Instrumentation.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSmartStore+Instrumentation.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:SFSoupSpec+Internal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSDKStoreConfig.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreDatabaseManager+Internal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreUtils.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreDatabaseManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStore.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFQuerySpec.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SmartStoreSDKManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFAlterSoupLongOperation.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartSqlHelper.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartSqlCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSData+SFAdditions.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreUpgrade.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSoupSpec.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSmartStoreInspectorViewController.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSDKSmartStoreLogger.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SFStoreCursor.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SFSoupIndex.h">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:SmartStore-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SmartStoreTests"
+            name = "SmartStoreTests">
+            <FileRef
+               location = "group:SFSmartStoreSharingUpgradeTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreTestCase.m">
+            </FileRef>
+            <Group
+               location = "group:en.lproj"
+               name = "en.lproj">
+               <FileRef
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:SFQuerySpecTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SmartStoreTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartSqlTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartSqlWithExternalStorageTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreFullTextSearchTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKStoreConfigTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreTestCase.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreAlterTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SmartStoreTests-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreWithExternalStorageTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartSqlCacheTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreFTSWithExternalStorageTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreFullTextSearchTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFMultipleSmartStoresTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreFullTextSearchSpeedTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartSqlTests.h">
+            </FileRef>
+            <FileRef
+               location = "group:SFSmartStoreLoadTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKStoreConfigTests.m">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:SalesforceSDKCommon"
+         name = "SalesforceSDKCommon">
+         <Group
+            location = "group:SalesforceSDKCommonTestAppUITests"
+            name = "SalesforceSDKCommonTestAppUITests">
+            <FileRef
+               location = "group:SalesforceSDKCommonTestAppUITests.m">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SalesforceSDKCommon.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:SalesforceSDKCommonTestApp"
+            name = "SalesforceSDKCommonTestApp">
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
                <FileRef
                   location = "group:Contents.json">
                </FileRef>
             </Group>
             <FileRef
-               location = "group:Contents.json">
+               location = "group:ViewController.m">
             </FileRef>
             <Group
-               location = "group:touchId.imageset"
-               name = "touchId.imageset">
+               location = "group:Base.lproj"
+               name = "Base.lproj">
                <FileRef
-                  location = "group:touchId@3x.png">
+                  location = "group:LaunchScreen.storyboard">
                </FileRef>
                <FileRef
-                  location = "group:touchId@2x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:touchId.png">
-               </FileRef>
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-               <FileRef
-                  location = "group:touchId-dark@3x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:touchId-dark.png">
-               </FileRef>
-               <FileRef
-                  location = "group:touchId-dark@2x.png">
+                  location = "group:Main.storyboard">
                </FileRef>
             </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceSDKCommon"
+            name = "SalesforceSDKCommon">
             <Group
-               location = "group:profile-placeholder.imageset"
-               name = "profile-placeholder.imageset">
-               <FileRef
-                  location = "group:ios_astro_circle@2x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:ios_astro_circle@3x.png">
-               </FileRef>
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-               <FileRef
-                  location = "group:ios_astro_circle@1x.png">
-               </FileRef>
+               location = "group:Classes"
+               name = "Classes">
+               <Group
+                  location = "group:Logger"
+                  name = "Logger">
+                  <FileRef
+                     location = "group:SFDefaultLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDefaultLogger.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLogger.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Util"
+                  name = "Util">
+                  <FileRef
+                     location = "group:SFSDKSafeMutableSet.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFTestContext.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSUserDefaults+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPathUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSwiftDetectUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableArray.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFFileProtectionHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKDatasharingHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFJsonUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKReachability.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSwiftDetectUtil.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPathUtil.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSUserDefaults+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFTestContext.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableDictionary.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableSet.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFFileProtectionHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableArray.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFJsonUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKDatasharingHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKReachability.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Keychain"
+                  name = "Keychain">
+                  <FileRef
+                     location = "group:KeychainManager.swift">
+                  </FileRef>
+               </Group>
             </Group>
+            <FileRef
+               location = "group:SalesforceSDKCommon.h">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceSDKCommonTests"
+            name = "SalesforceSDKCommonTests">
+            <FileRef
+               location = "group:KeychainItemManagerTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSafeMutableSetTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFLoggerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSafeMutableDictionaryTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSafeMutableArrayTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
          </Group>
       </Group>
       <Group
-         location = "group:common"
-         name = "common">
+         location = "group:SalesforceAnalytics"
+         name = "SalesforceAnalytics">
          <Group
-            location = "group:build"
-            name = "build">
+            location = "group:Configuration"
+            name = "Configuration">
+            <FileRef
+               location = "group:SalesforceAnalytics-Common.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceAnalytics-Dynamic-iOS-Release.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceAnalytics-Test.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceAnalytics-Common-Dynamic.xcconfig">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceAnalytics-Dynamic-iOS-Debug.xcconfig">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceAnalyticsTests"
+            name = "SalesforceAnalyticsTests">
+            <FileRef
+               location = "group:InstrumentationEventBuilderTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:EventStoreManagerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:AnalyticsTestUtil.h">
+            </FileRef>
+            <FileRef
+               location = "group:AnalyticsTestUtil.m">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Resources"
+            name = "Resources">
+            <FileRef
+               location = "group:Default-568h@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceAnalyticsTestApp"
+            name = "SalesforceAnalyticsTestApp">
             <Group
-               location = "group:tools"
-               name = "tools">
+               location = "group:en.lproj"
+               name = "en.lproj">
                <FileRef
-                  location = "group:gcovr">
+                  location = "group:InfoPlist.strings">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:AppDelegate.h">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:SalesforceAnalyticsTestApp-Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:Main_iPhone.storyboard">
                </FileRef>
                <FileRef
-                  location = "group:ant-contrib-1.0b3.jar">
+                  location = "group:Main_iPad.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceAnalyticsTestApp.entitlements">
+            </FileRef>
+            <FileRef
+               location = "group:SalesforceAnalyticsTestApp-Prefix.pch">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Default-568h@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:SalesforceAnalytics.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:SalesforceAnalytics"
+            name = "SalesforceAnalytics">
+            <FileRef
+               location = "group:SalesforceAnalytics.h">
+            </FileRef>
+            <Group
+               location = "group:Classes"
+               name = "Classes">
+               <Group
+                  location = "group:Util"
+                  name = "Util">
+                  <FileRef
+                     location = "group:SFSDKAnalyticsLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAnalyticsLogger.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Manager"
+                  name = "Manager">
+                  <FileRef
+                     location = "group:SFSDKAnalyticsManager+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAnalyticsManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAnalyticsManager.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Model"
+                  name = "Model">
+                  <FileRef
+                     location = "group:SFSDKDeviceAppAttributes.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKInstrumentationEventBuilder.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKInstrumentationEvent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKInstrumentationEvent+Internal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKDeviceAppAttributes.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKInstrumentationEventBuilder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKInstrumentationEvent.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Transform"
+                  name = "Transform">
+                  <FileRef
+                     location = "group:SFSDKAILTNTransform.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKTransform.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKAILTNTransform.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Store"
+                  name = "Store">
+                  <FileRef
+                     location = "group:SFSDKEventStoreManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKEventStoreManager.m">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Supporting Files"
+               name = "Supporting Files">
+               <FileRef
+                  location = "group:SalesforceAnalytics-Prefix.pch">
                </FileRef>
                <FileRef
-                  location = "group:update_podspec_headers.sh">
-               </FileRef>
-               <FileRef
-                  location = "group:generate_headers.sh">
+                  location = "group:Info.plist">
                </FileRef>
             </Group>
          </Group>
