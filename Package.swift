@@ -20,6 +20,25 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SalesforceMobileSDK-iOS",
+            dependencies: ["SalesforceSDKCommon",
+                           "SalesforceAnalytics",
+                           "SmartStore",
+                           "MobileSync"],
+            path: "Sources"),
+        .target(
+            name: "SalesforceSDKCommon",
+            dependencies: [],
+            path: "libs"),
+        .target(
+            name: "SalesforceAnalytics",
+            dependencies: [],
+            path: "libs"),
+        .target(
+            name: "SmartStore",
+            dependencies: [],
+            path: "libs"),
+        .target(
+            name: "MobileSync",
             dependencies: [],
             path: "libs"),
     ]
