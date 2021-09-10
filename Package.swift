@@ -24,7 +24,7 @@ let package = Package(
                            "SalesforceAnalytics",
                            "SmartStore",
                            "MobileSync"],
-            path: "SalesforceSDKCore",
+            path: "libs",
             exclude: ["SalesforceSDKCore/SalesforceSDKCoreTestApp/en.lproj/InfoPlist.strings",
                       "SalesforceSDKCore/SalesforceSDKCoreTestApp/Base.lproj/Main_iPad.storyboard"]),
         .target(
