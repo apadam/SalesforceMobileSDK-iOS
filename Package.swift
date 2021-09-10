@@ -21,6 +21,6 @@ let package = Package(
         .target(
             name: "SalesforceMobileSDK-iOS",
             dependencies: []),
-            path: "Libs",
+            path: "libs",
     ]
 )
