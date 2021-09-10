@@ -1,209 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:Package.swift">
-   </FileRef>
    <Group
-      location = "group:Sources"
-      name = "Sources">
+      location = "container:"
+      name = "SourcesSwift">
       <Group
-         location = "container:"
-         name = "SalesforceMobileSDK-iOS">
+         location = "group:/Users/adame/Desktop/SalesforceMobileSDK-iOS/SalesforceSDKCommon"
+         name = "SalesforceSDKCommon">
          <Group
-            location = "group:/Users/adame/Desktop/SalesforceMobileSDK-iOS/SalesforceSDKCommon"
-            name = "SalesforceSDKCommon">
-            <Group
-               location = "group:SalesforceSDKCommonTestAppUITests"
-               name = "SalesforceSDKCommonTestAppUITests">
-               <FileRef
-                  location = "group:SalesforceSDKCommonTestAppUITests.m">
-               </FileRef>
-               <FileRef
-                  location = "group:Info.plist">
-               </FileRef>
-            </Group>
+            location = "group:SalesforceSDKCommonTestAppUITests"
+            name = "SalesforceSDKCommonTestAppUITests">
             <FileRef
-               location = "group:SalesforceSDKCommon.xcodeproj">
+               location = "group:SalesforceSDKCommonTestAppUITests.m">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SalesforceSDKCommon.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:SalesforceSDKCommonTestApp"
+            name = "SalesforceSDKCommonTestApp">
+            <FileRef
+               location = "group:AppDelegate.h">
             </FileRef>
             <Group
-               location = "group:SalesforceSDKCommonTestApp"
-               name = "SalesforceSDKCommonTestApp">
-               <FileRef
-                  location = "group:AppDelegate.h">
-               </FileRef>
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
                <Group
-                  location = "group:Assets.xcassets"
-                  name = "Assets.xcassets">
-                  <Group
-                     location = "group:AppIcon.appiconset"
-                     name = "AppIcon.appiconset">
-                     <FileRef
-                        location = "group:Contents.json">
-                     </FileRef>
-                  </Group>
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
                   <FileRef
                      location = "group:Contents.json">
                   </FileRef>
                </Group>
                <FileRef
-                  location = "group:ViewController.m">
+                  location = "group:Contents.json">
                </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ViewController.m">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.m">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.m">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+            <FileRef
+               location = "group:ViewController.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceSDKCommon"
+            name = "SalesforceSDKCommon">
+            <Group
+               location = "group:Classes"
+               name = "Classes">
                <Group
-                  location = "group:Base.lproj"
-                  name = "Base.lproj">
+                  location = "group:Logger"
+                  name = "Logger">
                   <FileRef
-                     location = "group:LaunchScreen.storyboard">
+                     location = "group:SFDefaultLogger.h">
                   </FileRef>
                   <FileRef
-                     location = "group:Main.storyboard">
+                     location = "group:SFLogger.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFDefaultLogger.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFLogger.m">
                   </FileRef>
                </Group>
-               <FileRef
-                  location = "group:main.m">
-               </FileRef>
-               <FileRef
-                  location = "group:AppDelegate.m">
-               </FileRef>
-               <FileRef
-                  location = "group:Info.plist">
-               </FileRef>
-               <FileRef
-                  location = "group:ViewController.h">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:SalesforceSDKCommon"
-               name = "SalesforceSDKCommon">
                <Group
-                  location = "group:Classes"
-                  name = "Classes">
-                  <Group
-                     location = "group:Logger"
-                     name = "Logger">
-                     <FileRef
-                        location = "group:SFDefaultLogger.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFLogger.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFDefaultLogger.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFLogger.m">
-                     </FileRef>
-                  </Group>
-                  <Group
-                     location = "group:Util"
-                     name = "Util">
-                     <FileRef
-                        location = "group:SFSDKSafeMutableSet.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFTestContext.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKSafeMutableDictionary.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:NSUserDefaults+SFAdditions.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFPathUtil.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSwiftDetectUtil.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKSafeMutableArray.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFFileProtectionHelper.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKDatasharingHelper.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFJsonUtils.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKReachability.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSwiftDetectUtil.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFPathUtil.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:NSUserDefaults+SFAdditions.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFTestContext.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKSafeMutableDictionary.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKSafeMutableSet.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFFileProtectionHelper.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKSafeMutableArray.m">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFJsonUtils.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKDatasharingHelper.h">
-                     </FileRef>
-                     <FileRef
-                        location = "group:SFSDKReachability.h">
-                     </FileRef>
-                  </Group>
-                  <Group
-                     location = "group:Keychain"
-                     name = "Keychain">
-                     <FileRef
-                        location = "group:KeychainManager.swift">
-                     </FileRef>
-                  </Group>
+                  location = "group:Util"
+                  name = "Util">
+                  <FileRef
+                     location = "group:SFSDKSafeMutableSet.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFTestContext.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableDictionary.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSUserDefaults+SFAdditions.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPathUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSwiftDetectUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableArray.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFFileProtectionHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKDatasharingHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFJsonUtils.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKReachability.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSwiftDetectUtil.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFPathUtil.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSUserDefaults+SFAdditions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFTestContext.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableDictionary.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableSet.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFFileProtectionHelper.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKSafeMutableArray.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFJsonUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKDatasharingHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFSDKReachability.h">
+                  </FileRef>
                </Group>
-               <FileRef
-                  location = "group:SalesforceSDKCommon.h">
-               </FileRef>
-               <FileRef
-                  location = "group:Info.plist">
-               </FileRef>
+               <Group
+                  location = "group:Keychain"
+                  name = "Keychain">
+                  <FileRef
+                     location = "group:KeychainManager.swift">
+                  </FileRef>
+               </Group>
             </Group>
-            <Group
-               location = "group:SalesforceSDKCommonTests"
-               name = "SalesforceSDKCommonTests">
-               <FileRef
-                  location = "group:KeychainItemManagerTests.swift">
-               </FileRef>
-               <FileRef
-                  location = "group:SFSDKSafeMutableSetTests.m">
-               </FileRef>
-               <FileRef
-                  location = "group:SFLoggerTests.m">
-               </FileRef>
-               <FileRef
-                  location = "group:SFSDKSafeMutableDictionaryTests.m">
-               </FileRef>
-               <FileRef
-                  location = "group:SFSDKSafeMutableArrayTests.m">
-               </FileRef>
-               <FileRef
-                  location = "group:Info.plist">
-               </FileRef>
-            </Group>
+            <FileRef
+               location = "group:SalesforceSDKCommon.h">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceSDKCommonTests"
+            name = "SalesforceSDKCommonTests">
+            <FileRef
+               location = "group:KeychainItemManagerTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSafeMutableSetTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFLoggerTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSafeMutableDictionaryTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:SFSDKSafeMutableArrayTests.m">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
          </Group>
       </Group>
    </Group>
+   <FileRef
+      location = "group:Package.swift">
+   </FileRef>
    <Group
       location = "group:configuration"
       name = "configuration">

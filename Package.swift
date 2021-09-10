@@ -24,7 +24,7 @@ let package = Package(
                            "SalesforceAnalytics",
                            "SmartStore",
                            "MobileSync"],
-            path: "Sources"),
+            path: "SourcesSwift"),
         .target(
             name: "SalesforceSDKCommon",
             dependencies: [],
