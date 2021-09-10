@@ -26,37 +26,45 @@ let package = Package(
                            "MobileSync"],
             path: "libs",
             exclude: ["SalesforceSDKCore/SalesforceSDKCoreTestApp/en.lproj/InfoPlist.strings",
-                      "SalesforceSDKCore/SalesforceSDKCoreTestApp/Base.lproj/Main_iPad.storyboard"]),
+                      "SalesforceSDKCore/SalesforceSDKCoreTestApp/Base.lproj/Main_iPad.storyboard",
+            
+                      "SalesforceSDKCommon/SalesforceSDKCommonTestApp/Base.lproj/Main.storyboard",
+                      "SalesforceSDKCommon/SalesforceSDKCommonTestApp/Assets.xcassets",
+                      "SalesforceSDKCommon/SalesforceSDKCommonTestApp/Base.lproj/LaunchScreen.storyboard",
+            
+                      "SalesforceAnalytics/SalesforceAnalyticsTestApp/en.lproj/InfoPlist.strings",
+                      "SalesforceAnalytics/SalesforceAnalyticsTestApp/Base.lproj/Main_iPad.storyboardSalesforceAnalytics/SalesforceAnalyticsTestApp/Base.lproj/Main_iPad.storyboard",
+                      "SalesforceAnalytics/SalesforceAnalyticsTestApp/Assets.xcassets",
+                      "SalesforceAnalytics/SalesforceAnalyticsTestApp/Base.lproj/Main_iPhone.storyboard",
+            
+                      "SmartStore/SmartStoreTests/en.lproj/InfoPlist.strings",
+                      "SmartStore/SmartStoreTestApp/Base.lproj/Main.storyboard",
+                      "SmartStore/SmartStoreTestApp/Assets.xcassets",
+                      "SmartStore/SmartStoreTestApp/Base.lproj/LaunchScreen.storyboard",
+            
+                      "MobileSync/MobileSyncTests/en.lproj/InfoPlist.strings",
+                      "MobileSync/MobileSyncTestApp/Base.lproj/Main.storyboard",
+                      "MobileSync/MobileSyncTestApp/Assets.xcassets",
+                      "MobileSync/MobileSyncTestApp/Base.lproj/LaunchScreen.storyboard"]),
         .target(
             name: "SalesforceSDKCommon",
             dependencies: [],
             path: "libs",
-            exclude: ["SalesforceSDKCommon/SalesforceSDKCommonTestApp/Base.lproj/Main.storyboard",
-                      "SalesforceSDKCommon/SalesforceSDKCommonTestApp/Assets.xcassets",
-                      "SalesforceSDKCommon/SalesforceSDKCommonTestApp/Base.lproj/LaunchScreen.storyboard"]),
+            exclude: []),
         .target(
             name: "SalesforceAnalytics",
             dependencies: [],
             path: "libs",
-            exclude: ["SalesforceAnalytics/SalesforceAnalyticsTestApp/en.lproj/InfoPlist.strings",
-                      "SalesforceAnalytics/SalesforceAnalyticsTestApp/Base.lproj/Main_iPad.storyboardSalesforceAnalytics/SalesforceAnalyticsTestApp/Base.lproj/Main_iPad.storyboard",
-                      "SalesforceAnalytics/SalesforceAnalyticsTestApp/Assets.xcassets",
-                      "SalesforceAnalytics/SalesforceAnalyticsTestApp/Base.lproj/Main_iPhone.storyboard"]),
+            exclude: []),
         .target(
             name: "SmartStore",
             dependencies: [],
             path: "libs",
-            exclude: ["SmartStore/SmartStoreTests/en.lproj/InfoPlist.strings",
-                      "SmartStore/SmartStoreTestApp/Base.lproj/Main.storyboard",
-                      "SmartStore/SmartStoreTestApp/Assets.xcassets",
-                      "SmartStore/SmartStoreTestApp/Base.lproj/LaunchScreen.storyboard"]),
+            exclude: []),
         .target(
             name: "MobileSync",
             dependencies: [],
             path: "libs",
-            exclude: ["MobileSync/MobileSyncTests/en.lproj/InfoPlist.strings",
-                      "MobileSync/MobileSyncTestApp/Base.lproj/Main.storyboard",
-                      "MobileSync/MobileSyncTestApp/Assets.xcassets",
-                      "MobileSync/MobileSyncTestApp/Base.lproj/LaunchScreen.storyboard"])
+            exclude: [])
     ]
 )
