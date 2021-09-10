@@ -1,6 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:Package.swift">
+   </FileRef>
+   <Group
+      location = "group:../SalesforceMobileSDK-iOS-dev/shared"
+      name = "shared">
+      <Group
+         location = "group:test"
+         name = "test">
+         <FileRef
+            location = "group:XCUITest-Bridging-Header.h">
+         </FileRef>
+         <FileRef
+            location = "group:XCUIElement.h">
+         </FileRef>
+         <FileRef
+            location = "group:test_credentials.json.sample">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:classes"
+         name = "classes">
+         <FileRef
+            location = "group:IDPLoginViewController.xib">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:resources"
+         name = "resources">
+         <FileRef
+            location = "group:LaunchScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:SalesforceSDKResources.bundle">
+         </FileRef>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:appicon80x80.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon20x20.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon76x76.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon29x29.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon167x167.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon58x58.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon60x60.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon180x180.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon152x152.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon120x120.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon87x87.png">
+               </FileRef>
+               <FileRef
+                  location = "group:appicon40x40.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SalesforceSDKAssets.xcassets"
+            name = "SalesforceSDKAssets.xcassets">
+            <Group
+               location = "group:account-add.imageset"
+               name = "account-add.imageset">
+               <FileRef
+                  location = "group:add@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:add@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:add@1x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:globalheader-back-arrow.imageset"
+               name = "globalheader-back-arrow.imageset">
+               <FileRef
+                  location = "group:globalheader-back-arrow@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:globalheader-back-arrow@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:globalheader-back-arrow.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:faceId.imageset"
+               name = "faceId.imageset">
+               <FileRef
+                  location = "group:faceId-dark@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:faceId-dark@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:faceId-dark.png">
+               </FileRef>
+               <FileRef
+                  location = "group:faceId@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:faceId@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:faceId.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:salesforce-logo.imageset"
+               name = "salesforce-logo.imageset">
+               <FileRef
+                  location = "group:salesforce-logo1x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:salesforce-logo3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:salesforce-logo2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:login-window-gear.imageset"
+               name = "login-window-gear.imageset">
+               <FileRef
+                  location = "group:login-window-gear@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:login-window-gear@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:login-window-gear.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:touchId.imageset"
+               name = "touchId.imageset">
+               <FileRef
+                  location = "group:touchId@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:touchId@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:touchId.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:touchId-dark@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:touchId-dark.png">
+               </FileRef>
+               <FileRef
+                  location = "group:touchId-dark@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:profile-placeholder.imageset"
+               name = "profile-placeholder.imageset">
+               <FileRef
+                  location = "group:ios_astro_circle@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:ios_astro_circle@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:ios_astro_circle@1x.png">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:common"
+         name = "common">
+         <Group
+            location = "group:build"
+            name = "build">
+            <Group
+               location = "group:tools"
+               name = "tools">
+               <FileRef
+                  location = "group:gcovr">
+               </FileRef>
+               <FileRef
+                  location = "group:ant-contrib-1.0b3.jar">
+               </FileRef>
+               <FileRef
+                  location = "group:update_podspec_headers.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:generate_headers.sh">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
    <Group
       location = "group:configuration"
       name = "configuration">
